@@ -1,0 +1,68 @@
+name: Bug report
+description: Report repeatable behavior in GEO SEO SuperApp
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include API keys, passwords, OAuth tokens, client data, or private URLs.
+        Security issues must use private vulnerability reporting.
+  - type: input
+    id: version
+    attributes:
+      label: SuperApp version
+      placeholder: "0.35.9"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "macOS 15.5"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Setup and connections
+        - Projects and conversations
+        - Recipes and AI runs
+        - Monitoring
+        - Search Console or Bing
+        - Site crawler
+        - Indexation
+        - Social publishing
+        - Browser tools
+        - Updates and installation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Describe the user workflow from the first action.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the exact error message when available.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add sanitized screenshots or logs when useful.

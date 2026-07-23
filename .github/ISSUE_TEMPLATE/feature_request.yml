@@ -1,0 +1,31 @@
+name: Feature or workflow request
+description: Suggest a clearer objective, recipe, connection, or workflow
+title: "[Request] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: What are you trying to accomplish?
+      description: Describe the SEO, GEO, agency, or publishing outcome.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: How do you do this now?
+      description: Include the current SuperApp path or external tools involved.
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: What would make the workflow easier?
+    validations:
+      required: true
+  - type: textarea
+    id: advanced
+    attributes:
+      label: Advanced controls that must remain available
+      description: Note settings or expert options the simpler flow should preserve.
