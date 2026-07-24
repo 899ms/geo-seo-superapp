@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.35.10 - 2026-07-24
+
+- Fixed first-run AI connection failures caused by stale or incompatible
+  personal Codex model configuration.
+- Isolated SuperApp-managed AI setup from personal Codex settings while
+  preserving an existing ChatGPT or Codex sign-in when available.
+- Prevented local configuration paths and parser details from appearing in
+  onboarding errors.
+
+This is a signed and Apple-notarized Apple silicon macOS release.
+
 ## 0.35.9 - 2026-07-23
 
 - Removed a shared desktop OAuth secret from distributed application builds.
