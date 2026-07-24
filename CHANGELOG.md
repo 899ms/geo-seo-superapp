@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.35.11 - 2026-07-24
+
+- Restored Google Search Console token refresh for existing connections.
+- Restored authenticated Search Console requests such as sitemap submissions.
+- Kept Google OAuth credentials bundled inside the signed app so users do not
+  need to provide a client ID or client secret.
+
+This is a signed and Apple-notarized Apple silicon macOS release.
+
 ## 0.35.10 - 2026-07-24
 
 - Fixed first-run AI connection failures caused by stale or incompatible
