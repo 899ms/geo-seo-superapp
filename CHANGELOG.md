@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.35.12 - 2026-07-24
+
+- Improved On-Page.ai credit handling across workflows and setup.
+- Detects real provider billing failures, including failed MCP tool responses
+  returned inside otherwise successful AI runs.
+- Keeps validation and runtime errors separate from billing issues.
+- Preserves connection management while offering a clear way to get more
+  credits.
+- Displays fractional balances accurately and treats low credits as attention,
+  not a disconnected account.
+
+This is a signed and Apple-notarized Apple silicon macOS release.
+
 ## 0.35.11 - 2026-07-24
 
 - Restored Google Search Console token refresh for existing connections.
