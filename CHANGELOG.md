@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.35.15 - 2026-07-31
+
+- Updates On-Page.ai onboarding for the one-time $1 activation.
+- Explains that activation includes $10 in credits, or $20 with a business
+  email.
+- Updates Setup Center and connection calls to action to match the production
+  signup flow.
+
+This is a signed and Apple-notarized Apple silicon macOS release.
+
 ## 0.35.14 - 2026-07-25
 
 - Keeps follow-up conversations at the latest response instead of jumping back
