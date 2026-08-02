@@ -1,5 +1,30 @@
 # Changelog
 
+## 0.35.15 - 2026-07-31
+
+- Updates On-Page.ai onboarding for the one-time $1 activation.
+- Explains that activation includes $10 in credits, or $20 with a business
+  email.
+- Updates Setup Center and connection calls to action to match the production
+  signup flow.
+
+This is a signed and Apple-notarized Apple silicon macOS release.
+
+## 0.35.14 - 2026-07-25
+
+- Keeps follow-up conversations at the latest response instead of jumping back
+  to the top.
+- Keeps draft messages and attachments isolated to the task where they were
+  added.
+- Allows the next follow-up to be drafted while the current run finishes.
+- Improves modal dismissal, keyboard handling, and draggable window placement.
+- Improves report behavior in narrow windows and prevents completed progress
+  animations from replaying.
+- Makes runtime errors selectable so diagnostic details can be copied when
+  support is needed.
+
+This is a signed and Apple-notarized Apple silicon macOS release.
+
 ## 0.35.12 - 2026-07-24
 
 - Improved On-Page.ai credit handling across workflows and setup.
